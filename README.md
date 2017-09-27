@@ -8,6 +8,4 @@ Nesse projeto será desenvolvido um protótipo de um carro autônomo capaz de se
 ![20170927_191015](https://user-images.githubusercontent.com/32318386/30941040-fc1fcd02-a3b9-11e7-84fc-f70cca70af30.jpg)
 
 
-olá cara.
-
-# - 
+# - Manipulação da Imagem
