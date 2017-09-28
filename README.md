@@ -21,6 +21,8 @@
 
 # - Manipulação das Imagens
 
+  Nesse tópico buscaremos explicar de maneira geral os processos necessários para o reconhecimento da pista através de uma câmera de celular, o foco da explicação será o arquivo Get_Center.py.
+
 1)  Durante a captura de imagem a câmera deve estar alinhada corretamente com as faixas desejadas;
   
 2)  Na etapa de criação de thresholds binários iremos modificar a imagem em diferentes parâmetros, a biblioteca threshold_helpers.py possui diferentes ferramentas para a realização dessas funções, essas são:
