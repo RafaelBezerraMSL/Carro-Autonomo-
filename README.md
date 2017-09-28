@@ -24,6 +24,10 @@
 1)  Durante a captura de imagem a câmera deve estar alinhada corretamente com as faixas desejadas;
   
 2)  Na etapa de criação de thresholds binários iremos modificar a imagem em diferentes parâmetros, a biblioteca threshold_helpers.py possui diferentes ferramentas para a realização dessas funções, essas são:
+
       - abs_sobel_thresh(), calcula os limiares de cores entre os eixos X e Y afim de encontrar o melhor para o processamento da imagem;
-      - hls_thresh(), faz uso da saturação HLS para modificação de cores
+      
+      - hls_thresh(), faz uso da saturação HLS para modificação de cores;
+      
+      - hsv_thresh(). faz uso da saturação HSV para modificação de cores;
   
