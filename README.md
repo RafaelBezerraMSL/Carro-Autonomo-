@@ -30,4 +30,19 @@
       - hls_thresh(), faz uso da saturação HLS para modificação de cores;
       
       - hsv_thresh(). faz uso da saturação HSV para modificação de cores;
+      
+3)  Agora na detecção da curvatura da pista será criado um histograma para definir qual é o meio da faixa. No momento não será possível a postagem de imagens a respeito dessa etapa, porém é necessário entender que no programa esta etapa se inicia durante a função lr_curvature(binary_warped), após o termino desta etapa serão retornados os valores do centro da pista em forma de números.
+
+4) Finalmente a detecção do centro da pista que será realizada com o auxílio do da detecção de curvatura, aqui também será mostrado através da contagem de pixels a distância em que o carro se encontra do centro da pista.
+
+  Para melhor entendimento do processo veremos exemplos tanto do momento em que o thresh é aplicado assim como o resultado final nas imagens a seguir.
+  
+![figure_1-6](https://user-images.githubusercontent.com/32318386/30946109-67d9a950-a3d8-11e7-9121-dcc6b55a9248.png)
+
+![figure_1-7](https://user-images.githubusercontent.com/32318386/30946108-64dd7e52-a3d8-11e7-9859-b147030feedb.png)
+
+# - Considerações
+
+  O projeto está em andamento e novas etapas e mais informações continuarão a ser atualizadas. Nos aprofundaremos no software e hardware utilizados no controle do protótipo, o controle PID e a programação no arduino, a comunicação serial ou bluetooth e mais modificações no projeto futuramente.
+
   
